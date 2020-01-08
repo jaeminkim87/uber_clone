@@ -10,6 +10,8 @@ type User {
     phoneNumber: String
     verifiedPhoneNumber: Boolean!
     profilePhoto: String
+    chat: Chat
+    messages: [Message]
     createAt: String!
     updateAt: String
     fullName: String
