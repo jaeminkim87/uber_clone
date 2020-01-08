@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b36bfb1-9375-4251-9a25-fae87e0c044c" name="Default Changelist" comment="Develop Backend for uber-clone&#10;1. Finish graphql">
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/resolvers.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/Ride/shared/Ride.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Ride/shared/Ride.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/User/shared/User.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/User/shared/User.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/Verification/shared/Verification.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Verification/shared/Verification.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Ride.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Ride.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Verification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Verification.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +88,7 @@
       <workItem from="1578192628439" duration="3400000" />
       <workItem from="1578284649419" duration="2054000" />
       <workItem from="1578382200201" duration="602000" />
-      <workItem from="1578451345607" duration="2481000" />
+      <workItem from="1578451345607" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="Develop Backend for uber-clone&#10;1. Finish graphql">
       <created>1578469884262</created>
@@ -106,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578469884262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Develop Backend for uber-clone&#10;1. Add resolvers.d.ts">
+      <created>1578470722555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578470722556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Develop Backend for uber-clone&#10;1. Finish graphql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Develop Backend for uber-clone&#10;1. Finish graphql" />
+    <MESSAGE value="Develop Backend for uber-clone&#10;1. Add resolvers.d.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Develop Backend for uber-clone&#10;1. Add resolvers.d.ts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="216" y="477" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577866272342">
@@ -129,10 +128,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="215" y="415" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1577942634525" />
-    <state x="72" y="128" key="CommitChangelistDialog2" timestamp="1578470682126">
+    <state x="72" y="128" key="CommitChangelistDialog2" timestamp="1578470721429">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="72" y="128" key="CommitChangelistDialog2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1578470682126" />
+    <state x="72" y="128" key="CommitChangelistDialog2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1578470721429" />
     <state x="-1077" y="294" key="FileChooserDialogImpl" timestamp="1577791835719">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -142,10 +141,10 @@
     </state>
     <state x="-1414" y="154" key="SettingsEditor/0.0.2560.1400/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1577792107504" />
     <state x="674" y="258" width="1213" height="1077" key="SettingsEditor/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1577942631810" />
-    <state x="26" y="377" key="Vcs.Push.Dialog.v2" timestamp="1578469886517">
+    <state x="26" y="377" key="Vcs.Push.Dialog.v2" timestamp="1578470723853">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="26" y="377" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1578469886517" />
+    <state x="26" y="377" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1578470723853" />
     <state x="113" y="312" width="840" height="1034" key="search.everywhere.popup" timestamp="1578199286001">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
