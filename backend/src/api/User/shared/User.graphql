@@ -11,6 +11,7 @@ type User {
     verifiedPhoneNumber: Boolean!
     profilePhoto: String
     chat: Chat
+    fbId: String
     messages: [Message]
     verifications: [Verification]
     ridesAsPassenger: [Ride]
