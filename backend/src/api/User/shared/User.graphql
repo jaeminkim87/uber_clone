@@ -1,19 +1,17 @@
 type User {
     id: Int!
     email: String
-    verrifiedEmail: Boolean!
+    verifiedEmail: Boolean!
     firstName: String!
     lastName: String!
     age: Int
     password: String
-    verifiedEmail: Boolean!
     phoneNumber: String
     verifiedPhoneNumber: Boolean!
     profilePhoto: String
     chat: Chat
     fbId: String
     messages: [Message]
-    verifications: [Verification]
     ridesAsPassenger: [Ride]
     ridesAsDriver: [Ride]
     createAt: String!

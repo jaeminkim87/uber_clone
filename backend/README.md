@@ -1,14 +1,21 @@
 # uber clone back-end
 
+- https://academy.nomadcoders.co/p/nuber-fullstack-javascript-graphql-course
+
 ## Resolvers
 
 ### public Resolvers:
 
-- [ ] Sign In / Sign Up with Facebook
-- [ ] Sign In with Email
-- [ ] Starts Phone Number Verification
-- [ ] Complete Phone Number Verification
-- [ ] Sign Up with Email
+- [x] Sign In / Sign Up with Facebook
+- [x] Sign In with Email
+- [x] Starts Phone Number Verification
+- [x] Complete Phone Number Verification
+- [x] Sign Up with Email
+
+### Authentication
+
+- [x] Generate JWT
+- [x] Verify JWT
 
 ### Private Resolvers
 
