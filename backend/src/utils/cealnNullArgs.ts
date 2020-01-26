@@ -1,4 +1,4 @@
-const cleanNullArg = (args) => {
+const cleanNullArgs = (args:object): object => {
   const notNull = {};
   Object.keys(args).forEach(key => {
     if (args[key] !== null) {
@@ -8,4 +8,4 @@ const cleanNullArg = (args) => {
   return notNull;
 };
 
-export default cleanNullArg;
+export default cleanNullArgs;

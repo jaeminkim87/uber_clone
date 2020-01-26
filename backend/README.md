@@ -1,5 +1,5 @@
 # uber clone back-end
-
+노마드 코더 강의 따라하기
 - https://academy.nomadcoders.co/p/nuber-fullstack-javascript-graphql-course
 
 ## Resolvers
@@ -23,7 +23,7 @@
 - [x] Request Email Verification
 - [x] Complete Email Verification
 - [x] Update My Profile
-- [ ] Toggle Driving Mode
+- [x] Toggle Driving Mode
 - [ ] Report Location / Orientation
 - [ ] Add Place
 - [ ] Edit Place
