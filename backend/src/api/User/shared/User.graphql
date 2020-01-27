@@ -9,13 +9,15 @@ type User {
     phoneNumber: String
     verifiedPhoneNumber: Boolean!
     profilePhoto: String
-    chat: Chat
     fbId: String
     messages: [Message]
     ridesAsPassenger: [Ride]
     ridesAsDriver: [Ride]
-    createAt: String!
-    updateAt: String
+    chatsAsDriver: [Chat]
+    chatsAsPassenger: [Chat]
+    places:[Place]
+    createdAt: String!
+    updatedAt: String
     fullName: String
     isDriving: Boolean!
     isRiding: Boolean!

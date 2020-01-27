@@ -7,7 +7,6 @@ import {
   Column,
   CreateDateColumn,
   Entity,
-  ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
   UpdateDateColumn
@@ -15,6 +14,7 @@ import {
 import Chat from "./Chat";
 import Message from "./Message";
 import Ride from "./Ride";
+import Place from "./Place";
 
 const BCRYPT_ROUNDS = 10;
 
@@ -71,11 +71,17 @@ class User extends BaseEntity {
   @Column({ type: "double precision", default: 0 })
   lastOrientation: number;
 
-  @ManyToOne(
+  @OneToMany(
     type => Chat,
-    chat => chat.participants
+    chat => chat.passenger
   )
-  chat: Chat;
+  chatsAsPassenger: Chat[];
+
+  @OneToMany(
+    type => Chat,
+    chat => chat.driver
+  )
+  chatsAsDriver: Chat[];
 
   @OneToMany(
     type => Message,
@@ -95,8 +101,14 @@ class User extends BaseEntity {
   )
   ridesAsDriver: Ride[];
 
-  @CreateDateColumn() createAt: string;
-  @UpdateDateColumn() updateAt: string;
+  @OneToMany(
+    type => Place,
+    place => place.user
+  )
+  places: Place[];
+
+  @CreateDateColumn() createdAt: string;
+  @UpdateDateColumn() updatedAt: string;
 
   get fullName(): string {
     return `${this.firstName} ${this.lastName}`;

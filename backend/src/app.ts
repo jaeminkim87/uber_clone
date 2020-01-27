@@ -1,6 +1,6 @@
 import cors from "cors";
-import { NextFunction, Request, Response } from "express";
-import { GraphQLServer } from "graphql-yoga";
+import { NextFunction, Response } from "express";
+import { GraphQLServer, PubSub } from "graphql-yoga";
 import helmet from "helmet";
 import logger from "morgan";
 import schema from "./schema";
@@ -8,12 +8,18 @@ import decodeJWT from "./utils/decodeJWT";
 
 class App {
   public app: GraphQLServer;
+  public pubSub: any;
   constructor() {
+    this.pubSub = new PubSub(); //only demo => redis or memcached
+    this.pubSub.ee.setMaxListeners(99); // memory leak patch
     this.app = new GraphQLServer({
       schema,
       context: req => {
+        const {connection: {context = null} = {}} = req;
         return {
-          req: req.request
+          req: req.request,
+          pubSub: this.pubSub,
+          context
         };
       }
     });
